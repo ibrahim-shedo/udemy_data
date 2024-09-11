@@ -1,5 +1,5 @@
 Udemy Courses Data Analysis
-This project aims to analyze Udemy course data using Python and Pandas to extract key insights related to the subjects, pricing models, subscribers, and course details. The dataset provides information about Udemy's diverse course offerings, including course IDs, titles, pricing, levels, and subject categories.
+This project aims to analyze Udemy course data using Python and Pandas to extract key insights related to the subjects, pricing models, subscribers, and course details. The dataset provides information about Udemy’s diverse course offerings, including course IDs, titles, pricing, levels, and subject categories.
 
 Table of Contents
 Project Overview
@@ -139,4 +139,3 @@ Predictive Modeling: Build a machine learning model to predict the success of a 
 Dashboard: Create an interactive dashboard using Plotly or Dash to visualize key metrics dynamically.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
