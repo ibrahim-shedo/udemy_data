@@ -1,64 +1,67 @@
-Udemy Courses Data Analysis
+# Udemy Courses Data Analysis
+
 This project aims to analyze Udemy course data using Python and Pandas to extract key insights related to the subjects, pricing models, subscribers, and course details. The dataset provides information about Udemy’s diverse course offerings, including course IDs, titles, pricing, levels, and subject categories.
 
-Table of Contents
-Project Overview
-Dataset Information
-Analysis Questions
-Installation and Setup
-Data Analysis Steps
-Visualizations
-Conclusion
-Future Enhancements
-Project Overview
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset Information](#dataset-information)
+3. [Analysis Questions](#analysis-questions)
+4. [Installation and Setup](#installation-and-setup)
+5. [Data Analysis Steps](#data-analysis-steps)
+6. [Visualizations](#visualizations)
+7. [Conclusion](#conclusion)
+8. [Future Enhancements](#future-enhancements)
+
+## Project Overview
 This project involves analyzing Udemy's course dataset to uncover valuable insights. Using Python and Pandas, we answer several specific business-related queries, such as identifying the most popular courses, price distributions, and trends based on course publication dates. The analysis also focuses on key metrics such as the number of subscribers, course levels, and subject distribution.
 
-Dataset Information
+## Dataset Information
 The dataset used in this project contains various details about Udemy courses:
 
-Column Name	Description
-course_id	Unique identifier for each course
-course_title	Title of the course
-is_paid	Indicates if the course is paid or free
-price	Price of the course (for paid courses)
-num_subscribers	Number of students enrolled in the course
-num_reviews	Number of reviews provided by students
-num_lectures	Total number of lectures included in the course
-level	Course difficulty level (Beginner, Intermediate, Expert)
-content_duration	Total duration of the course content (in hours)
-published_timestamp	Date when the course was published
-subject	Subject category of the course (e.g., Business, Design, Development)
-Dataset Source
-The dataset can be downloaded from Udemy Course Dataset Source. (Insert dataset link)
+| Column Name         | Description                                           |
+|---------------------|-------------------------------------------------------|
+| `course_id`         | Unique identifier for each course                     |
+| `course_title`      | Title of the course                                   |
+| `is_paid`           | Indicates if the course is paid or free               |
+| `price`             | Price of the course (for paid courses)                |
+| `num_subscribers`   | Number of students enrolled in the course             |
+| `num_reviews`       | Number of reviews provided by students                |
+| `num_lectures`      | Total number of lectures included in the course       |
+| `level`             | Course difficulty level (Beginner, Intermediate, Expert)|
+| `content_duration`  | Total duration of the course content (in hours)       |
+| `published_timestamp`| Date when the course was published                   |
+| `subject`           | Subject category of the course (e.g., Business, Design, Development) |
 
-Analysis Questions
+### Dataset Source
+The dataset can be downloaded from Udemy Course Dataset Source. *(Insert dataset link)*
+
+## Analysis Questions
 The following key questions are addressed in this analysis:
 
-What are the different subjects Udemy offers?
-Which subject has the maximum number of courses?
-Show all paid courses.
-Show all free courses.
-What are the top 10 selling courses?
-What are the least 5 selling courses?
-Show all Graphic Design courses with fewer than 100 subscribers.
-List all courses related to Python.
-What are the courses that were published in 2015?
-What is the maximum number of subscribers for each course level (Beginner, Intermediate, Expert)?
-Installation and Setup
-To run this project locally, follow these steps:
+1. What are the different subjects Udemy offers?
+2. Which subject has the maximum number of courses?
+3. Show all paid courses.
+4. Show all free courses.
+5. What are the top 10 selling courses?
+6. What are the least 5 selling courses?
+7. Show all Graphic Design courses with fewer than 100 subscribers.
+8. List all courses related to Python.
+9. What are the courses that were published in 2015?
+10. What is the maximum number of subscribers for each course level (Beginner, Intermediate, Expert)?
 
-Prerequisites
-Python 3.x
-Pandas library
-Jupyter Notebook (optional, for interactive analysis)
-Matplotlib/Seaborn (optional, for visualizations)
-Install Dependencies
-Clone the repository:
+## Installation and Setup
 
-bash
-Copy code
-git clone https://github.com/your-username/udemy_dcourses_data.git
-cd udemy_dcourses_data
+### Prerequisites
+- Python 3.x
+- Pandas library
+- Jupyter Notebook (optional, for interactive analysis)
+- Matplotlib/Seaborn (optional, for visualizations)
+
+### Install Dependencies
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/udemy_dcourses_data.git
+   cd udemy_dcourses_data
 Create a virtual environment (optional but recommended):
 
 bash
